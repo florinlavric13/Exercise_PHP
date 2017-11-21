@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d652151-3fce-4823-970b-7c299899cfe3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/strings.phtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/variables.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Arrays.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Arrays_functions.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Associative_Array.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Booleans.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Constants.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Null_and_empty.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/Type_Casting.phtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cap03_Data_Types/num_floating_points.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml" afterPath="$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml" afterPath="$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,41 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="strings.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/strings.phtml">
+      <file leaf-file-name="Constants.phtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Constants.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_function.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="variables.phtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/variables.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="num_integer.phtml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="72" lean-forward="false" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+            <state relative-caret-position="216">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,9 +46,17 @@
         <option value="$PROJECT_DIR$/Cap02/C2/helloworld.phtml" />
         <option value="$PROJECT_DIR$/Cap02/C3/c2_3.phtml" />
         <option value="$PROJECT_DIR$/Cap03_Data_Types/C3_1_Varibles/variables.phtml" />
-        <option value="$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml" />
         <option value="$PROJECT_DIR$/Cap03_Data_Types/strings.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml" />
         <option value="$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/num_floating_points.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Arrays.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Associative_Array.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Arrays_functions.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Booleans.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Null_and_empty.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Type_Casting.phtml" />
+        <option value="$PROJECT_DIR$/Cap03_Data_Types/Constants.phtml" />
       </list>
     </option>
   </component>
@@ -85,11 +70,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
-    <option name="y" value="483" />
-    <option name="width" value="1157" />
-    <option name="height" value="576" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="-3" />
+    <option name="width" value="1920" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -108,6 +93,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,7 +110,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,26 +135,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.num_integer.phtml">
-    <configuration name="c2_3.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap02/C3/c2_3.phtml" />
-    <configuration name="num_integer.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/num_integer.phtml" />
-    <configuration name="string_function.phtml" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml" />
-    <configuration name="strings.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/strings.phtml" />
-    <configuration name="variables.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/variables.phtml" />
+  <component name="RunManager" selected="JavaScript Debug.Constants.phtml">
+    <configuration name="Arrays_functions.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/Arrays_functions.phtml" />
+    <configuration name="Booleans.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/Booleans.phtml" />
+    <configuration name="Constants.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/Constants.phtml" />
+    <configuration name="Null_and_empty.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/Null_and_empty.phtml" />
+    <configuration name="Type_Casting.phtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Learn_PHP_Ex/Cap03_Data_Types/Type_Casting.phtml" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.c2_3.phtml" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.variables.phtml" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.strings.phtml" />
-      <item index="3" class="java.lang.String" itemvalue="PHP Script.string_function.phtml" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.num_integer.phtml" />
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Arrays_functions.phtml" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Booleans.phtml" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Null_and_empty.phtml" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Type_Casting.phtml" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Constants.phtml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.num_integer.phtml" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.string_function.phtml" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.strings.phtml" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.variables.phtml" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.c2_3.phtml" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.Constants.phtml" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.Type_Casting.phtml" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.Null_and_empty.phtml" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.Booleans.phtml" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.Arrays_functions.phtml" />
       </list>
     </recent_temporary>
   </component>
@@ -187,24 +172,28 @@
       <option name="presentableId" value="Default" />
       <updated>1511103524826</updated>
       <workItem from="1511103526069" duration="1517000" />
-      <workItem from="1511105455082" duration="9069000" />
+      <workItem from="1511105455082" duration="9309000" />
+      <workItem from="1511162055151" duration="35000" />
+      <workItem from="1511168677234" duration="1248000" />
+      <workItem from="1511264203654" duration="4617000" />
+      <workItem from="1511269928014" duration="6889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10586000" />
+    <option name="totallyTimeSpent" value="23615000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="483" width="1157" height="576" extended-state="0" />
+    <frame x="1920" y="-3" width="1920" height="1034" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.270027" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16755603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34598213" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3432671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -229,51 +218,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/basic.html">
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Arrays.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/helloworld.phtml">
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/strings.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cap01/basic.html" />
-    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/basic.html">
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/variables.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/helloworld.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C3/c2_3.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="558">
+          <caret line="40" column="2" lean-forward="false" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/strings.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/variables.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -282,6 +278,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -296,8 +300,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/helloworld.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap01/basic.html" />
+    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/basic.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="6" column="72" lean-forward="false" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C2/helloworld.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap02_First_Step/C3/c2_3.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/strings.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/string_function.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/num_integer.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/num_floating_points.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="65" lean-forward="true" selection-start-line="25" selection-start-column="65" selection-end-line="25" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/variables.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Arrays.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Associative_Array.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Arrays_functions.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Null_and_empty.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Booleans.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Type_Casting.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cap03_Data_Types/Constants.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>

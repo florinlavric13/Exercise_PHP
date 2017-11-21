@@ -1,0 +1,35 @@
+<?php
+
+$num = array(63, 23, 31, 45, 56, 66, 77, 86,)
+
+?>
+
+<br/>
+
+Count: <?php echo count($num); ?><br/>
+Max value: <?php echo max($num); ?><br/>
+Min value: <?php echo min($num); ?> <br/>
+
+<br/>
+<pre>
+Sort: <?php sort($num);
+    print_r($num); ?><br/>
+
+Reverse sort: <?php rsort($num);
+    print_r($num); ?> <br/>
+</pre>
+
+<!--Sort = sorteaza numerle in ordine crescatoare;-->
+<!--Resort = -||- -||- -||- -||- -||- descrescatoare;-->
+
+<br/>
+
+Implode: <?php echo $num_string = implode(" > ", $num); ?> <br/>
+Explode: <?php print_r(explode(" * ", $num_string)); ?> <br/>
+
+<br/>
+
+15 in Array?: <?php echo in_array(15, $num); ?> <br/>
+66 in Array?: <?php echo in_array(66, $num); ?> <br/>
+
+

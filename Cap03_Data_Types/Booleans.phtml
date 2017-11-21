@@ -1,0 +1,22 @@
+<?php
+
+$var1 = true;
+$var2 = false;
+
+?>
+    <br/>
+
+    var1: <?php echo $var1; ?> <br/>
+    var2: <?php echo $var2; ?> <br/>
+
+    var2 is boolean?: <?php echo is_bool($var2); ?> <br/>
+
+<?php
+$num = 3;
+if (is_float($num)) {
+    echo "It is a float.";
+
+} elseif (!is_float($num)) {
+    echo "Not is a float.";
+}
+?>
