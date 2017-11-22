@@ -1,0 +1,39 @@
+<?php
+
+$var1 = 10;
+$var2 = 10;
+$var3 = 8;
+$var4 = 30;
+
+if (($var1 >= $var2) || ($var3 >= $var4)) {
+    echo "var1 mai mare ca var2 OR ";
+    echo "var3  mai mare ca var4";
+
+}
+
+
+?>
+
+<br/>
+
+<?php
+
+$var5 = 200;
+
+if (!isset($var5)) {
+    $var5 = 100;
+}
+echo $var5;
+
+?>
+<br/>
+
+<?php
+$quantity = "";
+if (empty($quantity) && !is_numeric($quantity)) {
+    echo "You must enter a quantity.";
+
+}
+
+?>
+

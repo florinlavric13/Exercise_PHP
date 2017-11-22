@@ -1,0 +1,91 @@
+<?php
+
+$a = 4;
+
+switch ($a) {
+    case 0:
+        echo "a este egal cu 0<br />";
+        break;
+    case 1:
+        echo "a este egal cu 1<br />";
+        break;
+    case 2:
+        echo "a este egal cu 2<br />";
+        break;
+    case 3:
+        echo "a este egal cu 3<br />";
+        break;
+    default:
+        echo "a nu este egal cu 0, 1, 2, sau 3.";
+        break;
+}
+
+?>
+<br/>
+
+<?php
+
+$an = 2018;
+
+switch (($an - 4) % 12) {
+    case 0:
+        $zodiac = "Soarec";
+        break;
+    case 1:
+        $zodiac = "Boului";
+        break;
+    case 2:
+        $zodiac = "Tigrului";
+        break;
+    case 3:
+        $zodiac = "Iepurelui";
+        break;
+    case 4:
+        $zodiac = "Dragonului";
+        break;
+    case 5:
+        $zodiac = "Sarpelui";
+        break;
+    case 6:
+        $zodiac = "Calului";
+        break;
+    case 7:
+        $zodiac = "Caprii";
+        break;
+    case 8:
+        $zodiac = "Maimutei";
+        break;
+    case 9:
+        $zodiac = "Sobolanului";
+        break;
+    case 10:
+        $zodiac = "Cainelui";
+        break;
+    case 11:
+        $zodiac = "Porcului";
+        break;
+}
+echo "{$an} in zodiacul chinezesc, este anul {$zodiac}.";
+
+?>
+<br />
+
+<?php
+
+$user_type = 'costumer';
+
+switch ($user_type) {
+    case 'student':
+        echo "Buna ziua! Va rugam introduceti parola de student: ";
+        break;
+    case 'admin':
+        echo "Buna ziua admin!";
+        break;
+    case 'costumer':
+    case 'vizitator':
+        echo "Acces nepermis!!!";
+        break;
+}
+
+?>
+
