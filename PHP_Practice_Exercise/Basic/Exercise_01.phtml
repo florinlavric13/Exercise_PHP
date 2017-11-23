@@ -1,0 +1,12 @@
+<form method="POST">
+    <h1>Introdu numele tau:  </h1>
+
+    Nume: <input type="text" name="name">
+    <input type="submit" value="Submit">
+
+</form>
+
+<?php
+$name = $_POST['name'];
+echo "<h3> Hello {$name} </h3>";
+?>
