@@ -1,0 +1,47 @@
+<?php
+//
+//$variabile = 1;
+//$array = [1, 2, 4, 4];
+//
+//echo $variabile;    // arata valoarea variabilei.
+//print_r($array);    // arata array-ul.
+//gettype($variabile); // tipul variabilei.
+//var_dump($variabile); // tipul variabilei si valoarea.
+//get_defined_vars();
+//debug_backtrace();   // arata back trace
+
+
+?>
+<br/>
+<pre>
+<?php
+
+$number = 100;
+$string = "Error";
+$array = array(1 => "Homepage", 2 => "About Us", 3 => "Services");
+
+var_dump($number);
+var_dump($string);
+var_dump($array);
+
+
+?>
+
+    <br/>
+
+    <?php
+    //    print_r(get_defined_vars());
+    //var_dump(debug_backtrace())
+
+
+    function say_hello_to($word)
+    {
+        echo "{$word}<br/>";
+        var_dump(debug_backtrace());
+    }
+
+    say_hello_to("FCSB is STEAUA!");
+
+
+    ?>
+</pre>
