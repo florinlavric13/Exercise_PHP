@@ -1,0 +1,21 @@
+<?php
+
+function operatii_matematice($val1, $val2)
+{
+
+    $adunare = $val1 + $val2;
+    $scadere = $val1 - $val2;
+
+    return array($adunare, $scadere);
+}
+
+$rezultat_array = operatii_matematice(12, 12);
+echo "Rezultatul adunarii este: " . $rezultat_array[0] . " <br />";
+echo "Rezultatul scaderii este: " . $rezultat_array[1] . " <br />";
+
+list($adunare_rez, $scadere_rez) = operatii_matematice(20, 12);
+echo "Rezultatul adunarii este: " . $adunare_rez . " <br />";
+echo "Rezultatul scaderii este: " . $scadere_rez . " <br />";
+
+
+?>

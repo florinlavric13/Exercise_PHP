@@ -1,0 +1,27 @@
+<?php
+
+function say_hello_to($word)
+{
+    echo "{$word}<br/>";
+}
+
+$name = "ALIBEC";
+say_hello_to($name);
+
+?>
+<br/>
+
+<?php
+
+function better_hello($mare, $target, $punct)
+{
+
+    echo $mare . " " . $target . $punct . "<br />";
+}
+
+better_hello("Buna", $name, "!");
+better_hello("Esti cel mai bun ", $name, "!");
+better_hello("Esti cel mai bun ", $name, null);
+
+
+?>

@@ -1,0 +1,65 @@
+<?php
+
+function adunare($val1, $val2)
+{
+    $suma = $val1 + $val2;
+    return $suma;
+}
+
+$result1 = adunare(1, 2);
+$result2 = adunare(10, $result1);
+echo "Rezultatul adunarii este: " . $result2;
+
+?>
+
+    <br/>
+
+<?php
+$an = 2017;
+function zodiac_chinezesc($an)
+{
+    switch (($an - 4) % 12) {
+        case 0:
+            return "Soarec";
+
+        case 1:
+            return "Boului";
+
+        case 2:
+            return "Tigrului";
+
+        case 3:
+            return "Iepurelui";
+
+        case 4:
+            return "Dragonului";
+
+        case 5:
+            return "Sarpelui";
+
+        case 6:
+            return "Calului";
+
+        case 7:
+            return "Caprii";
+
+        case 8:
+            return "Maimutei";
+
+        case 9:
+            return "Sobolanului";
+
+        case 10:
+            return "Cainelui";
+
+        case 11:
+            return "Porcului";
+
+    }
+}
+
+$zodiac = zodiac_chinezesc($an);
+echo "Anul {$an} este anul {$zodiac}.<br/>"
+
+
+?>

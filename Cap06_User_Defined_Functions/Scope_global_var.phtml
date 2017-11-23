@@ -1,0 +1,22 @@
+<?php
+
+$bar = "afara";  // variabila globala
+
+function variabile()
+{
+    global $bar;
+
+    if (isset($bar)) {
+
+        echo "variabile: " . $bar . "<br />";
+    }
+
+    $bar = "inauntru";  // variabila locala
+}
+
+echo "1: " . $bar . "<br />";
+variabile();
+echo "2: " . $bar . " <br />";
+
+
+?>

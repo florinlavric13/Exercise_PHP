@@ -1,0 +1,45 @@
+<?php
+
+$ani = array(1, 2, 3, 11, 22, 201, 2212, 2017);
+
+foreach ($ani as $anul) {
+    echo "Anul: {$anul}.<br />";
+}
+
+?>
+<br/>
+
+<?php
+$person = array(
+    "first_name" => "Florin",
+    "last_name" => "Lavric",
+    "adress" => "Iasi, Bld. Chimiei, nr. 10 B, bl.10 B, ap.11, et. 4",
+    "city" => "Iasi",
+    "state" => "Romania",
+    "zip_code" => "245100",
+    "number_phone" => "0785790156"
+);
+
+foreach ($person as $attribute => $data) {
+    $attr_nice = ucwords(str_replace("_", " ", $attribute));
+    echo "{$attr_nice}: {$data}. <br/>";
+}
+?>
+<br/>
+
+<?php
+$prices = array(
+    "Brand New Computer: " => 3500,
+    "1 luna abonament pe Lynda.com: " => 100,
+    "Invatam PHP ?: " => null);
+
+foreach ($prices as $item => $price) {
+    echo "{$item}";
+    if (is_int($price)) {
+        echo $price . " RON";
+    } else {
+        echo "priceless";
+    }
+    echo "<br />";
+}
+?>

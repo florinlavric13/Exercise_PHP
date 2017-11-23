@@ -1,0 +1,26 @@
+<?php
+
+$ages = array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+echo " Victoria Plezen  0 : " . current($ages) . " Steaua Bucuresti" . "<br />";
+next($ages);
+echo " Victoria Plezen  1 : " . current($ages) . " Steaua Bucuresti" . "<br />";
+next($ages);
+next($ages);
+echo " Victoria Plezen  2 : " . current($ages) . " Steaua Bucuresti" . "<br />";
+prev($ages);
+echo " Victoria Plezen  3 : " . current($ages) . " Steaua Bucuresti" . "<br />";
+reset($ages);
+echo " Victoria Plezen  4 : " . current($ages) . " Steaua Bucuresti" . "<br />";
+end($ages);
+echo " Victoria Plezen  5 : " . current($ages) . " Steaua Bucuresti" . "<br />";
+
+?>
+<br/>
+<?php
+reset($ages);
+while ($age = current($ages)) {
+    echo $age . ", ";
+    next($ages);
+}
+
+?>
