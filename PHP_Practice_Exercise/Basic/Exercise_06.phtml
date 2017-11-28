@@ -1,0 +1,12 @@
+Write a PHP script, to check whether the page is called from 'https' or 'http'.<br/>
+
+<br />
+
+<?php
+if (!empty($_SERVER['HTTPS'])) {
+    echo 'https is enabled';
+} else {
+    echo 'http is enabled';
+}
+
+?>

@@ -1,0 +1,31 @@
+<?php
+
+class Student
+{
+
+}
+
+$classes = get_declared_classes();
+echo "Classes: " . implode(', ', $classes) . "<br />";
+
+$class_name = ['Product', 'Student', 'student'];
+foreach ($class_name as $class_name) {
+    if (class_exists($class_name)) {
+        echo "{$class_name} is a declared class.<br />";
+    } else {
+        echo "{$class_name} is not declaret class.<br />";
+    }
+}
+?>
+
+
+<!--Notice-->
+<!---->
+<!--Best Practice:-->
+<!---->
+<!--1. Capitalize and camelcase class names;-->
+<!--2. Make nouns singular;-->
+<!--3. Define each class in a separate file;-->
+<!--4. Group class file in a directory. -->
+
+
