@@ -1,15 +1,14 @@
 Write a simple PHP program to check that emails are valid.
-
 <br />
-
-Email: <input type="text" name="email"> <input type="submit" name="Submit">
-<br />
-
 <?php
-
-$email = "jhon.doe@gmail.com";
-
-if (fiter_var($email, FILTER_VALIDATE_EMAIL)) {
-
+// pass valid/invalid emails
+$email = "mail@example.com";
+if (filter_var($email, FILTER_VALIDATE_EMAIL))
+{
+    echo '"' . $email . '" = Valid'."\n";
+}
+else
+{
+    echo '"' . $email . '" = Invalid'."\n";
 }
 ?>
